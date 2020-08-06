@@ -23,4 +23,10 @@ class Book {
 const book1 = new Book('book 1', 'John Doe', '2015')
 
 book1.revise("1995")
-console.log(Book.topBookStore())
+console.log(Book.topBookStore()
+
+class Magazine extends Book {
+  constructor(title, author, year, month) {
+    super(title, author, year)
+  }
+}
